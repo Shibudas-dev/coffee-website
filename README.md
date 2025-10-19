@@ -6,7 +6,7 @@ A clean and modern, single-page landing website for a coffee shop, designed with
 ---
 
 # Screenshot
-[screenshot](previeww.png)
+![screenshot](previeww.png)
 
 ---
 
