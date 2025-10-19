@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Engagement&family=Fleur+De+Leah&family=Mea+Culpa&family=Playwrite+DE+SAS:wght@100..400&family=Playwrite+HU:wght@100..400&family=Rouge+Script&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.coffee {
+  font-family: "Engagement", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3a1f25;
+    width: 100%;
+}
+.navbar img {
+    width: 50px;
+}
+.ul-links {
+    display: flex;
+    gap: 20px;
+}
+.ul-links a {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    padding-right: 10px;
+}
+.hero {
+    background-color: #3a1f25;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-content {
+    padding-left: 40px;
+}
+.hero h3 {
+  font-family: "Fleur De Leah", cursive;
+  font-size: 30px;
+  color: #f2b84b;
+  font-weight: 300;
+}
+.hero img {
+    width: 500px;
+    padding-right: 100px;
+    padding-bottom: 130px;
+}
+.hero-content h1, p {
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-yellow {
+    background-color: #f2b84b;
+    width: 110px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.btn-outline {
+    border: 1px solid white;
+    width: 110px;
+    height: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+.about {
+    display: flex;
+    align-items: center;
+    gap: 38%;
+    background-color: rgb(255, 255, 255);
+    height: 60vh;
+}
+.about h2, p {
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about img {
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 50px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 20px #f2b84b;
+}
+.about h2 {
+   padding-left: 180px;
+   text-decoration: underline #f2b84b;
+}
+.about p {
+    padding-right: 30px;
+}
+.menu-item img {
+    width: 140px;
+}
+.menu h2 {
+    padding: 30px 0px;
+    text-decoration: underline #f2b84b;
+}
+.menu {
+    background-color: rgb(27, 27, 27);
+    height: 80vh;
+    color: white;
+    text-align: center;
+}
+.menu-grid {
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu p {
+    color: white;
+}
+.contact {
+    text-align: center;
+    background-color: rgb(253, 247, 247);
+    /* height: 70vh; */
+}
+.contact h2 {
+    text-decoration: underline #f2b84b#f2b84b;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  max-width: 400px;
+  margin: 0 auto;
+  gap: 5px;
+}
+
+.contact input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  background-color: #3a1f25;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+.footer {
+  background-color: #212121;
+  text-align: center;
+  padding: 20px 0;
+}
+.footer p{
+    color: white;
+}
